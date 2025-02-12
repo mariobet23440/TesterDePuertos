@@ -36,7 +36,7 @@ SETUP:
 	LDI     R16, 0x00
     OUT     PORTD, R16
 	
-
+// Mainloop
 MAINLOOP:
 	// Registros de contadores
 	LDI		R19, 0x00
