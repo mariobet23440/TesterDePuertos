@@ -27,7 +27,7 @@
   <MAINLOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>40</LINE></MAINLOOP>
   <CONTEO><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>46</LINE></CONTEO>
   <SUB_RUTINA_CONTEO1><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>52</LINE></SUB_RUTINA_CONTEO1>
-  <SUB_RUTINA_CONTEO2><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>58</LINE></SUB_RUTINA_CONTEO2>
-  <SUB_RUTINA_CONTEO3><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>64</LINE></SUB_RUTINA_CONTEO3>
+  <SUB_RUTINA_CONTEO2><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>57</LINE></SUB_RUTINA_CONTEO2>
+  <SUB_RUTINA_CONTEO3><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>62</LINE></SUB_RUTINA_CONTEO3>
  </LABELS>
 </ASSEMBLER_INFO>
