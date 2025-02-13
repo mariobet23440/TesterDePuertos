@@ -22,23 +22,18 @@ SETUP:
     OUT     PORTD, R16
 
     // Registros de contadores
-    LDI     R20, 0x01
-    LDI     R22, 0x01
+    LDI     R22, 0x00
 
 MAINLOOP:
     // Incrementar contadores y sacarlos en los puertos
-    ROL     R20
-    OUT     PORTB, R20
-    CALL    DELAY_SETUP
-
     INC     R22
     OUT     PORTD, R22
-    CALL    DELAY_SETUP
+    CALL    DELAY_255_POW3
 
     RJMP    MAINLOOP
 
 DELAY_255_POW3:
-    LDI     R18, 255
+    LDI     R18, 8
 DELAY_255_POW3_LOOP:
     CALL    DELAY_SETUP
     DEC     R18
