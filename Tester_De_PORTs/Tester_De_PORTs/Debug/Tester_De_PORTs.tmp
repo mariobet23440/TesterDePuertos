@@ -25,8 +25,10 @@
  <LABELS>
   <SETUP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>20</LINE></SETUP>
   <MAINLOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>47</LINE></MAINLOOP>
-  <DELAY_SETUP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>68</LINE></DELAY_SETUP>
-  <DELAY_LOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>72</LINE></DELAY_LOOP>
-  <CONTEO_R16><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>88</LINE></CONTEO_R16>
+  <DELAY_255POW3><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>70</LINE></DELAY_255POW3>
+  <DELAY_255POW2><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>75</LINE></DELAY_255POW2>
+  <DELAY_END><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>102</LINE></DELAY_END>
+  <DELAY_LOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>84</LINE></DELAY_LOOP>
+  <CONTEO_R16><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>97</LINE></CONTEO_R16>
  </LABELS>
 </ASSEMBLER_INFO>
