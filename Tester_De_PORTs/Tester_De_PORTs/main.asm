@@ -39,55 +39,53 @@ SETUP:
     OUT     PORTD, R16
 
 	// Registros de contadores
-	LDI		R20, 0x00
-	LDI		R21, 0x00
-	LDI		R22, 0x00
+	LDI		R20, 0x01
+	LDI		R21, 0x01
+	LDI		R22, 0x01
 	
 // Mainloop
 MAINLOOP:
 	// Incrementar contadores y sacarlos en los puertos
-	//INC		R20
-	//OUT		PORTB, R20
-	//CALL	CONTEO
+	ROL		R20
+	OUT		PORTB, R20
+	CALL	DELAY_SETUP
 
 	/*
 	INC		R21
 	OUT		PORTC, R21
-	CALL	CONTEO
+	CALL	DELAY_SETUP
 	*/
 
 	INC		R22
 	OUT		PORTD, R22
-	CALL	CONTEO
+	CALL	DELAY_SETUP
 
 	RJMP	MAINLOOP
 
+// Vamos a construir una rutina de conteo
+// Usaremos el registro R16 como contador (En cada subrutina se contará de 255 a 0)
+// Y luego incrementaremos el valor de R17 hasta un número deseado
+DELAY_SETUP:
+	LDI		R17, 2				// El número de la derecha representa el no. de iteraciones
+	CALL	DELAY_LOOP
 
-CONTEO:
+DELAY_LOOP:
+	// Reestablecer el valor de R16 a 255
 	LDI		R16, 0xFF
-	LDI		R17, 0XFF
-	LDI		r18, 0xFF
-	LDI		R19, 0X01
-	CALL	SUB_RUTINA_CONTEO1
-
-SUB_RUTINA_CONTEO1:
-	DEC		R16
-	BRNE	SUB_RUTINA_CONTEO1
-	CALL	SUB_RUTINA_CONTEO2
-
-SUB_RUTINA_CONTEO2:
-	DEC		R17
-	BRNE	SUB_RUTINA_CONTEO2
-	CALL	SUB_RUTINA_CONTEO3
-
-SUB_RUTINA_CONTEO3:
-	DEC		R18
-	BRNE	SUB_RUTINA_CONTEO3
-	CALL	SUB_RUTINA_CONTEO4
 	
-SUB_RUTINA_CONTEO4:
-	DEC		R19
-	BRNE	SUB_RUTINA_CONTEO4
+	// Si R17 no es igual a 0 realizar un ciclo de conteo
+	CPI		R17, 0
+	
+	// Si la bandera Z del SREG está encendida, regresar a MAINLOOP
+	SBRS	SREG, 1
 	RET
 
+	// Si no, ejecutar un ciclo de conteo
+	DEC		R17					// Decrementar el valor de R17
+	CALL	CONTEO_R16
+	
 
+CONTEO_R16:
+	DEC		R16
+	BRNE	CONTEO_R16
+	RJMP	DELAY_LOOP
