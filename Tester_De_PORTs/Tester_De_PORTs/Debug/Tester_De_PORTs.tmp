@@ -24,10 +24,11 @@
  </OUTPUT_FILES>
  <LABELS>
   <SETUP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>20</LINE></SETUP>
-  <MAINLOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>40</LINE></MAINLOOP>
-  <CONTEO><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>62</LINE></CONTEO>
-  <SUB_RUTINA_CONTEO1><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>68</LINE></SUB_RUTINA_CONTEO1>
-  <SUB_RUTINA_CONTEO2><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>73</LINE></SUB_RUTINA_CONTEO2>
-  <SUB_RUTINA_CONTEO3><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>78</LINE></SUB_RUTINA_CONTEO3>
+  <MAINLOOP><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>47</LINE></MAINLOOP>
+  <CONTEO><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>66</LINE></CONTEO>
+  <SUB_RUTINA_CONTEO1><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>73</LINE></SUB_RUTINA_CONTEO1>
+  <SUB_RUTINA_CONTEO2><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>78</LINE></SUB_RUTINA_CONTEO2>
+  <SUB_RUTINA_CONTEO3><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>83</LINE></SUB_RUTINA_CONTEO3>
+  <SUB_RUTINA_CONTEO4><FILE>C:\Programacion-de-Microcontroladores\TesterDePuertos\Tester_De_PORTs\Tester_De_PORTs\main.asm</FILE><LINE>88</LINE></SUB_RUTINA_CONTEO4>
  </LABELS>
 </ASSEMBLER_INFO>
