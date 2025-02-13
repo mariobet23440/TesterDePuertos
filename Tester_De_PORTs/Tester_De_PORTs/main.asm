@@ -25,10 +25,12 @@ SETUP:
     OUT     PORTB, R16
 
 	// Activación de pines de salida en el puerto B
+	/*
 	LDI		R16, 0xFF
 	OUT		DDRC, R16
 	LDI     R16, 0x00
     OUT     PORTC, R16
+	*/
 
 	// Activación de pines de salida en el puerto D
 	LDI		R16, 0xFF
@@ -40,7 +42,7 @@ SETUP:
 MAINLOOP:
 	// Registros de contadores
 	LDI		R19, 0x00
-	LDI		R20, 0x00
+ // LDI		R20, 0x00
 	LDI		R21, 0x00
 
 	// Incrementar contadores y sacarlos en los puertos
@@ -48,9 +50,11 @@ MAINLOOP:
 	OUT		PORTB, R19
 	CALL	CONTEO
 
+	/*
 	INC		R20
 	OUT		PORTC, R20
 	CALL	CONTEO
+	*/
 
 	INC		R21
 	OUT		PORTD, R21
